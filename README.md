@@ -1,4 +1,4 @@
-# `A2` - Reproducibility Workflow
+# `A2` - Reproducibility Workflow - Monthly Wikipedia traffic
 
 ## Project goal
 The goal of this assignment is to construct, analyze, and publish a data set of the monthly traffic on Wikipedia
@@ -28,6 +28,8 @@ poetry shell
 # 4. Open the project with Jupyter in your browser.
 jupyter notebook
 ```
+
+---
 ## Licence
 This project is licensed with the [MIT License](./LICENSE).
 
