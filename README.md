@@ -1,2 +1,35 @@
-# A2-hcds-hcc-FU-WS_20
-My solutions to the Human Centered Data Science course
+# `A2` - Reproducibility Workflow
+
+## Project goal
+The goal of this assignment is to construct, analyze, and publish a data set of the monthly traffic on Wikipedia
+
+
+# Replication
+## Getting started
+
+We use the  "Amazing Python Data Workflow with Poetry, Pandas, and Jupyter"<sup>[1]</sup> to make sure everyone in the course uses the same environment and we don't run into any dependency hell.
+
+## Prerequisites
+
+Ensure that you have a Python version greater or equal to `3.9`, a working installation of Poetry and git installed.
+## Setup
+
+```sh
+# 1. Clone this repository (or use SSH) and move it into the repo root
+git clone https://github.com/Arne117/A2-hcds-hcc-FU-WS_20.git
+cd A2-hcds-hcc-FU-WS_20
+
+# 2. Install the dependencies in the repo root
+poetry install
+
+# 3. Create a subshell within the virtual environment by running:
+poetry shell
+
+# 4. Open the project with Jupyter in your browser.
+jupyter notebook
+```
+## Licence
+This project is licensed with the [MIT License](./LICENSE).
+
+---- 
+`[1]` https://mungingdata.com/python/jupyter-workflow-poetry-pandas/, accessed: 2020-11-15
