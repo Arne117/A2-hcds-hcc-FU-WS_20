@@ -1,8 +1,7 @@
 # `A2` - Reproducibility Workflow - Monthly Wikipedia traffic
 
 ## Project goal
-The goal of this assignment is to construct, analyze, and publish a data set of the monthly traffic on Wikipedia
-
+The goal of this assignment is to construct, analyze, and publish a data set of the monthly traffic on Wikipedia.
 
 # Replication
 ## Getting started
