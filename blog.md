@@ -8,17 +8,46 @@
 > Book: The Practice of Reproducible Research (Chapter 2 and 3)
 
 ### Definitions
-_Reproducibility and replicability_
+**Reproducibility**: "[...] the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator. That is, a second researcher might use the same raw data to build the same analysis files and implement the same statistical analysis in an attempt to yield the same results." <sup>1</sup>
+
+
+**Replicability**: "[...] refers to the ability of a researcher to duplicate the results of a prior study if the same procedures are followed but new data are collected." <sup>1</sup>
+
+---
+> [1] Goodman, S. N., Fanelli, D., & Ioannidis, J. P. A. (2016). What does research reproducibility mean? Science Translational Medicine, 8(341), 341ps12–341ps12. http://doi.org/10.1126/scitranslmed.aaf5027
+---
+
 _How does this relate to the definitions given in the lecture?_
 
 
-### 🗨️&nbsp; "How does the reading inform your understanding of human centered data science?"  
-_Describe in at least 2-3 full sentences._
+In the lecture we learned the ACM's (Association for Computing Machinery) differentiation version 1.1 which states:
+- **Repeatability** (Same team, same experimental setup)
+  - [...] For computational experiments, this means that a researcher can reliably repeat her own computation.
+- **Reproducibility** (Different team, same experimental setup)
+  - The measurement can be obtained with stated precision by a different team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same or a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using the author’s own artifacts.
+- **Replicability** (Different team, different experimental setup)
+  - The measurement can be obtained with stated precision by a different team, a different measuring system, in a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using artifacts which they develop completely independently.
 
+In the book they state an older version if the ACM differentiation which mainly differs on the definition of:
+- **Reproducibility** (Different team, different experimental setup)
+  - The measurement can be obtained with stated precision by a different team, a different measuring system, in a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using artifacts which they develop completely independently.
+- **Replicability** (Different team, same experimental setup)
+  - The measurement can be obtained with stated precision by a different team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same or a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using the author’s own artifacts.
+
+The ACM updated their terminology on August 24, 2020 to version 1.1 (which is more inline with the definitions stated in the book) with the following statement:
+> As a result of discussions with the National Information Standards Organization (NISO), it was recommended that ACM harmonize its terminology and definitions with those used in the broader scientific research community, and ACM agreed with NISO’s recommendation to swap the terms “reproducibility” and “replication” with the existing definitions used by ACM as part of its artifact review and badging initiative. ACM took action to update all prior badging to ensure consistency.
+
+
+> Source: https://www.acm.org/publications/policies/artifact-review-and-badging-current
+
+### 🗨️&nbsp; "How does the reading inform your understanding of human centered data science?"  
+I acknowledged how important programmatic automation is when you transform your data and visualize it. In previous modules of my bachelor we often manually transformed some data but we never really wrote the necessary steps down to reproduce the results again.
+
+I also never heard that there is a spectral format such as HDF5 to store multi-dimensional array data.
 ### ❓&nbsp; Questions
 _List at least 1 question (full sentence) that this reading raised in your mind, and say why._
 
-1. ...
+I was wondering if there is a service or software that a researcher could use to get informed about the availability of his datasets. Through his career he/she might use different options to store research data. If the structure of the service changes, the service shuts down or the data just isn't accessible anymore, it would be good to know for the researcher get notified about this so he/she can perform actions.
 
 ***
 
