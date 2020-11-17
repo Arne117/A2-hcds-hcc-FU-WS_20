@@ -19,15 +19,18 @@ _Describe in at least 2-3 full sentences._
 _List at least 1 question (full sentence) that this reading raised in your mind, and say why._
 
 1. ...
-1. ...
 
 ***
 
 ## A2 - Reproducibility Workflow
-_Briefly describe your experience using the reproducibility workflow._
+Retrieving the data from the REST API was quite easy. 
+Working with the Pandas library turned out to save a lot of time compared to creating the required `.csv` file with just pure python. 
+Describing then each step in a Jupiter notebook feels a bit like teaching someone how to code who has little knowledge in programming.
 
 ### Final Wikipedia Page View Plot
 ![Monthly Wikipedia traffic](src/img/monthly_wikipedia_traffic.png)
 ### Challenges
-_Describe what tasks were challenging to you._
-_What was surprising, what did you learn?_ 😮 
+Most challenging for me was to turn the raw json data into one single correctly formatted pandas data frame. I still have to get used to work with pandas and all its possibilities.
+
+_What was surprising, what did you learn?_ 😮
+I found pandas syntax to work with Strings in a Series pretty neat.
